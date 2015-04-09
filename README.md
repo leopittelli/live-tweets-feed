@@ -6,7 +6,7 @@ Super simple demo of a #hashtag streaming via socket.
 
 Demo
 ----
-You can see live tweets for #twitter here: [Heroku example](live-tweets-feed.herokuapp.com)
+You can see live tweets for #twitter here: [Heroku example](https://live-tweets-feed.herokuapp.com)
 Visit the link and wait until someone publish a tweet using hashtag #twitter.
 
 Requirements
@@ -20,6 +20,9 @@ $ git clone https://github.com/leopittelli/live-tweets-feed.git
 $ npm install
 $ npm start
 ```
+* Create a [twitter app](https://dev.twitter.com/apps/new)
+* Fill the ```consumer_key```, ```consumer_secret```, ```access_token``` and the ```access_token_secret``` in the ```index.js``` file
+* Visit: ```http://localhost:5000```
 
 Dependencies
 ------------
@@ -30,4 +33,4 @@ Its built based on:
 
 Deployment
 ----------
-* It's prepared to run on heroku (I started from the heroku sample application). You can follow the (node.js getting started)[https://devcenter.heroku.com/articles/getting-started-with-nodejs]
+* It's prepared to run on heroku (I started from the heroku sample application). You can follow the [node.js getting started](https://devcenter.heroku.com/articles/getting-started-with-nodejs)

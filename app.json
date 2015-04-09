@@ -1,0 +1,7 @@
+{
+  "name": "Live tweets feed example",
+  "description": "Tweets feed auto update using Twitter Streaming API and node.js",
+  "repository": "https://github.com/leopittelli/live-tweets-feed.git",
+  "logo": "http://live-tweets-feed.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"]
+}
